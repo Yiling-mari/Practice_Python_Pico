@@ -13,7 +13,7 @@ else:
     height /=100
     BMI = round(weight/height**2, 1)
     print(f"您的BMI值是{BMI}")            
-#體重分析    
+# 體重分析    
     if BMI < 18.5:          
         print ("您的體重過輕")
     elif BMI >= 18.5 and BMI < 24:       #跟elif BMI < 24: 有什麼不一樣
